@@ -18,7 +18,7 @@ This was a school project. Four sample input files came with it to demo. No sour
 
 ## Demo
 
-This is a demo of the four different input files staged in examples.
+This is a demo of the four different input files that are staged in examples.
 
 ![demo](https://raw.githubusercontent.com/charlesdungy/cpu-memory-simulation/main/examples/output.gif)
 
@@ -27,7 +27,7 @@ This is a demo of the four different input files staged in examples.
 This is how I created the above gif, using FFmpeg. I created the cpusim.mov file with a screen recording.
 
 ```bash 
-$ ffmpeg -i cpusim.mov -vf "crop=400:in_h:342:900" output.gif
+$ ffmpeg -i cpusim.mov -vf "crop=510:in_h:342:0" output.gif
 ```
 
 ## License
