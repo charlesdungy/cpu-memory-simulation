@@ -12,6 +12,12 @@ The CPU process fetches a single instruction from the memory process. Instructio
 
 The program has two forms of interrupts: timer and system call. When both interrupts occur, the program enters kernel mode, but only one interrupt can occur at a time (for simplicity). A series of things happen when kernel mode is entered. The stack pointer (SP) switches to the system stack. The CPU process saves the stack pointer and program counter onto the system stack, so once the interrupt is handled, these values can be restored. A timer interrupt happens after some number of instructions. The user determines this value of instructions from a command line entry (the default is 10000).
 
+Interrupts are checked after an instruction executes.
+
+### Instruction Cycle with Interrupts
+
+![instruction_cycle](https://github.com/charlesdungy/cpu-memory-simulation/blob/main/examples/instruction_cycle.png?raw=true)
+
 More details can be found in the project description document (not yet added).
 
 This was a school project. Four sample input files came with it to demo. No source files were included.
