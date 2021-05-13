@@ -1,9 +1,9 @@
+#include <stdbool.h> 
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
 #include <string.h>
 #include <time.h>
-#include <stdbool.h> 
+#include <unistd.h>
 #include "cpu_mem_sim.h"
 
 /**

@@ -18,10 +18,10 @@ void closePipes(int *cpuToMemory, int *memoryToCPU, int cpuInt, int memoryInt);
 void cpuProcess(int *cpuToMemory, int *memoryToCPU, int interrupt);
 void errorExit(char *s);
 void memoryProcess(int *cpuToMemory, int *memoryToCPU, char const *fileName);
-void showAC(int port, int AC);
 void pipeAddressToStack(int *cpuToMemory, int writeStatus, int SP, int PC);
 void pipeReadStatusAndPTR(int *cpuToMemory, int PC, int readStatus);
 void processFileInput(FILE *fp, int *memory);
+void showAC(int port, int AC);
 void validateFile(int *memoryArray, char const *fileName);
 void writeToCPU(int *memoryToCPU, int *memoryArray, int ptr);
 
