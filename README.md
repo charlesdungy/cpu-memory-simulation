@@ -16,7 +16,7 @@ Interrupts are checked after an instruction executes.
 
 ### Instruction Cycle with Interrupts
 
-![instruction_cycle](https://github.com/charlesdungy/cpu-memory-simulation/blob/main/examples/instruction_cycle.png?raw=true)
+![instruction_cycle](https://github.com/charlesdungy/cpu-memory-simulation/blob/main/examples/instruction_cycle_a.png?raw=true)
 
 More details can be found in the project description document (not yet added).
 
